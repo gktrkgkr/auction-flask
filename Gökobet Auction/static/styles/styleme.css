@@ -1,0 +1,101 @@
+
+body.me {
+    background-color: #e1e8e2;
+}
+
+ul.menu {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style-type: none;
+    height: 50px;
+    background-color:#3f5b70;
+}
+
+ul.menu >li {
+    float: left;
+    border-right: 1px solid rgba(0, 0, 0, .1);
+    position: relative;
+}
+
+ul.menu >li a {
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    padding: 0 15px;
+    line-height: 50px;
+}
+
+ul.fav {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style-type: none;
+    background-color: #deb777;
+    transition: 250ms all;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+ul.fav li {
+   flex: 1;
+    border-right: 1px solid rgba(0, 0, 0, .1);
+}
+
+ul.fav li a {
+    font-size: 15px;
+    color: #fff;
+    padding: 0 15px;
+    line-height: 50px;
+    width: 100%;
+}
+
+ul.menu >li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    top: 50px;
+}
+
+
+
+
+div.pic{
+    position: absolute;
+    left: 1200px;
+    border: 7px solid black;
+    background-color: #613263;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+
+
+a.butonlink {
+    color: white;
+  }
+
+button.buton1 {
+    position: absolute;
+    left: 70px;
+    top: 70px;
+    background-color: grey; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+} 
+.buton1:hover {
+    background-color: #1D82CB;
+    color: white;
+  } 
